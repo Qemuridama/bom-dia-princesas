@@ -4,7 +4,7 @@ const translate = require("translation-google");
 const utils = require("../utils");
 const { Color } = require("ethereal-color");
 
-const bomDiaChannelId = "747517089626980353";
+const bomDiaChannelId = "747579257856720916";
 const qemuridamaGuildId = "703291967450382417";
 
 const quotesEndpoint = "https://type.fit/api/quotes";
