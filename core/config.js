@@ -1,4 +1,6 @@
+require("dotenv").config();
+
 module.exports = {
-  prefix: '-',
-  token: process.env.TOKEN
+  prefix: "-",
+  token: process.env.TOKEN,
 };
