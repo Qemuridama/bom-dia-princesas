@@ -1,5 +1,7 @@
 ## Setup
 
+[![Run on Repl.it](https://repl.it/badge/github/LaksCastro/bom-dia-princesas)](https://repl.it/github/LaksCastro/bom-dia-princesas)
+
 First of all, rename `hidden.env` to `.env`. Then get your discord bot token and replace `my-token-here` with it.
 Optionally, move to `index.js` and edit lines 6-12 (client configuration) as it suits you.
 Your bot is ready to launch!
