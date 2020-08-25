@@ -8,9 +8,11 @@ module.exports = () => {
   
   function keepAlive() {
     setTimeout(async function() {
-      await axios.get(
-        `https://bom-dia-princesas.lakscastro.repl.co`
-      );
+      try {
+        await axios.get(
+          `https://bom-dia-princesas.lakscastro.repl.co`
+        );
+      } catch(e) {}
 
       keepAlive();
     }, 5 * 60 * 1000);
