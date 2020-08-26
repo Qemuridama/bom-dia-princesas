@@ -12,7 +12,7 @@ const quotesEndpoint = "https://type.fit/api/quotes";
 module.exports = async function () {
   console.log("--Good Morning Scheduled");
 
-  schedule.scheduleJob("0 0 7 * * *", async function () {
+  schedule.scheduleJob("0 0 10 * * *", async function () {
     const bot = require("../core/bot").instance();
 
     const guild = bot.guilds.cache.find(
